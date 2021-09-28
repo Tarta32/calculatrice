@@ -1,0 +1,201 @@
+div {
+    border: solid 2px black;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+
+#calcul {
+    display: grid;
+    height: 350px;
+    width: 300px;
+    
+}
+
+#result {
+    grid-template-rows: flex;
+    grid-column: 1 / 6;
+    grid-row: 1;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#seven {
+    grid-template-rows: flex;
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#eight {
+    grid-template-rows: flex;
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#nine {
+    grid-template-rows: flex;
+    grid-column: 3;
+    grid-row: 2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#slash {
+    grid-template-rows: flex;
+    grid-column: 4;
+    grid-row: 2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#ce {
+    grid-template-rows: flex;
+    grid-column: 5;
+    grid-row: 2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#four {
+    grid-template-rows: flex;
+    grid-column: 1;
+    grid-row: 3;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+#five {
+    grid-template-rows: flex;
+    grid-column: 2;
+    grid-row: 3;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#six {
+    grid-template-rows: flex;
+    grid-column: 3;
+    grid-row: 3;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#multiply {
+    grid-template-rows: flex;
+    grid-column: 4;
+    grid-row: 3;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#c {
+    grid-template-rows: flex;
+    grid-column: 5;
+    grid-row: 3;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#one {
+    grid-template-rows: flex;
+    grid-column: 1;
+    grid-row: 4;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#two {
+    grid-template-rows: flex;
+    grid-column: 2;
+    grid-row: 4;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#three {
+    grid-template-rows: flex;
+    grid-column: 3;
+    grid-row: 4;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#less {
+    grid-template-rows: flex;
+    grid-column: 4;
+    grid-row: 4;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#equal {
+    grid-template-rows: flex;
+    grid-column: 5;
+    grid-row: 4 / 6;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#zero {
+    grid-template-rows: flex;
+    grid-column: 1 / 3;
+    grid-row: 5;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#point {
+    grid-template-rows: flex;
+    grid-column: 3;
+    grid-row: 5;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#more {
+    grid-template-rows: flex;
+    grid-column: 4;
+    grid-row: 5;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
