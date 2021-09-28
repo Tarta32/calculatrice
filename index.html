@@ -7,67 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js" defer></script>
 </head>
 
 <body>
     <div id="calcul">
-        <div id="result">
-            resultat
-        </div>
-        <div id="seven">
-            7
-        </div>
-        <div id="eight">
-            8
-        </div>
-        <div id="nine">
-            9
-        </div>
-        <div id="slash">
-            /
-        </div>
-        <div id="ce">
-            CE
-        </div>
-        <div id="four">
-            4
-        </div>
-        <div id="five">
-            5
-        </div>
-        <div id="six">
-            6
-        </div>
-        <div id="multiply">
-            *
-        </div>
-        <div id="c">
-            C
-        </div>
-        <div id="one">
-            1
-        </div>
-        <div id="two">
-            2
-        </div>
-        <div id="three">
-            3
-        </div>
-        <div id="less">
-            -
-        </div>
-        <div id="equal">
-            =
-        </div>
-        <div id="zero">
-            0
-        </div>
-        <div id="point">
-            .
-        </div>
-        <div id="more">
-            +
-        </div>
+        <div id="resultat"></div>
+        <button id="seven" onclick="fordisplaynum('7')">7</button>
+        <button id="eight" onclick="fordisplaynum('8')">8</button>
+        <button id="nine" onclick="fordisplaynum('9')">9</button>
+        <button id="slash" onclick="fordisplaysym('/')">/</button>
+        <button id="ce" onclick="forclear()">CE</button>
+        <button id="four" onclick="fordisplaynum('4')">4</button>
+        <button id="five" onclick="fordisplaynum('5')">5</button>
+        <button id="six" onclick="fordisplaynum('6')">6</button>
+        <button id="multiply" onclick="fordisplaysym('*')">*</button>
+        <button id="c" onclick="delet()">C</button>
+        <button id="one" onclick="fordisplaynum('1')">1</button>
+        <button id="two" onclick="fordisplaynum('2')">2</button>
+        <button id="three" onclick="fordisplaynum('3')">3</button>
+        <button id="less" onclick="fordisplaysym('-')">-</button>
+        <button id="equal" onclick="solve()">=</button>
+        <button id="zero" onclick="fordisplaynum('0')">0</button>
+        <button id="point" onclick="point('.')">.</button>
+        <button id="more" onclick="fordisplaysym('+')">+</button>
+        <button id="sup" onclick="sup()">&larr;</button>
+        <button id="+/-" >+/-</button>
     </div>
 </body>
 
